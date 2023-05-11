@@ -1,0 +1,44 @@
+{
+  "products": [{
+    "name": "hero Product",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "30",
+    "hero": "OMG This just came out today!",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  },{
+    "name": "Product 1",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "20",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  },{
+    "name": "Product 2",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "11",
+    "offer": "BOGOF",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  },{
+    "name": "Product 3",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "22",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  },{
+    "name": "Product 4",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "14",
+    "offer": "No srsly GTFO",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  },{
+    "name": "Product 5",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "99",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  },{
+    "name": "Product 6",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "9",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "offer": "info with offer",
+    "image": "https://img.freepik.com/free-photo/cardboard-box_144627-37023.jpg?size=626&ext=jpg"
+  }]
+}

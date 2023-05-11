@@ -3,8 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CheckoutComponent } from './checkout/checkout.component';
-import { ProductListComponent } from './product-list/product-list.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
+import { DomainInterceptor } from 'src/app/interceptors/domain.iterceptor';
 
 @NgModule({
   declarations: [
@@ -14,9 +20,14 @@ import { ProductListComponent } from './product-list/product-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    MatCardModule,
+    MatButtonModule
   ],
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: DomainInterceptor, multi: true },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
